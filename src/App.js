@@ -42,14 +42,14 @@ function App() {
           {
             basic_projects.map((value, index) => {
               const { name, url, image } = value;
-              return <a key={index} onClick={() => handleClickUrl(url)}>
+              return <div href='/' key={index} onClick={() => handleClickUrl(url)}>
                 <div className='img-container'>
                   <img src={image} alt="" />
                 </div>
                 <footer>
                   <h5>{name}</h5>
                 </footer>
-              </a>
+              </div>
             })
           }
         </div>
