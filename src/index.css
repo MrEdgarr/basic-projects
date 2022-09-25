@@ -147,4 +147,5 @@ footer h5 {
   font-weight: 500;
   color: #0f172a;
   font-size: 1.25rem;
+  text-transform: capitalize;
 }

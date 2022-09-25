@@ -27,6 +27,11 @@ function App() {
       image: '/images/search.png',
       url: 'https://basic-project-search.netlify.app/',
     },
+    {
+      name: 'ChatApp - firebase',
+      image: '/images/React-App.png',
+      url: 'https://chatappreactjs123.netlify.app/',
+    },
   ];
   const handleClickUrl = (url) => {
     window.open(url)
